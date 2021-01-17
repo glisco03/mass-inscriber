@@ -1,0 +1,21 @@
+modLoader="javafml"
+license="GPL-3.0"
+loaderVersion="[28,)"
+[[mods]]
+modId="mass-inscriber"
+version="${file.jarVersion}"
+displayName="Mass Inscriber"
+credits="The AE2 Team for creating one of the best storage management mods to date"
+authors="glisco"
+description='''
+Simply AE2 Addon that allows using a Capacity Card in an Inscriber
+'''
+
+[[dependencies.mass-inscriber]]
+    modId="appliedenergistics2"
+    mandatory=true
+    versionRange="[8,)"
+    ordering="NONE"
+    side="BOTH"
+
+
